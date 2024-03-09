@@ -1,0 +1,33 @@
+body{
+}
+h1{
+    color: #cdb4db;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: #ffc8dd;
+}
+p{
+    color: white;
+    background-color: #ffafcc;
+    padding: 10px;
+    border: 10px solid blue;
+}
+a:link{
+    color:#bde0fe;
+    text-decoration: none;
+}
+a:visited{
+    color:#ffafcc;
+}
+/*Cuando nos ponemos encima del link*/
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+/*Al poner el cursor sobre el link*/
+a:active{
+    color: red;
+    text-decoration: underline;
+}
