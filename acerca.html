@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Estilos/estilostabla.css">
     <title>Acerca de </title>
 </head>
 <body>
@@ -14,5 +15,34 @@
     <a href="mailto:luisaalejandrauicabcetz@gmail.com?subject=Contacto&body=prueba email">Enviar email</a>
     <br></br>
     <a href="index.html">Volver al inicio</a>
+
+    <br></br>
+    <table>
+        <caption>Tabla de datos</caption>
+        <tr>
+            <!--Cabezal de la tabla-->
+            <!--colspan, para juntar cabeceras o columnas-->
+            <th colspan="2">Nombre</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <!--Datos de la tabla-->
+            <td>Jungkook</td>
+            <td>Jeon</td>
+            <td>jungkook@mail.com</td>
+        </tr>
+        <tr>
+            <!--Datos de la tabla-->
+            <td>Taehyung</td>
+            <td>Kim</td>
+            <!--rowspan, para juntar renglones-->
+            <td rowspan="2">taetae@mail.com</td>
+        </tr>
+        <tr>
+            <!--Datos de la tabla-->
+            <td>Jimin</td>
+            <td>Park</td>
+        </tr>
+    </table>
 </body>
 </html>
