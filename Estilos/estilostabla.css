@@ -56,3 +56,13 @@ li a{
 li a:hover{ /*Cuando el cursor pasa arriba de los recuadros*/
     background-color: #1d3557;
 }
+/*HTML iframe y texto*/
+.titulo{
+    color: #f72585;
+    text-align: center;
+}
+.marco{
+    width: 100%;
+    height: 200px;
+    border: 1px solid #f72585;
+}
